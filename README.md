@@ -47,4 +47,5 @@ Framework: .NET 6.0
 ### Template Method
 ### Visitor
 
+## Footnote
 <a name="GoF Book">1</a>: Gof의 디자인 패턴 / Erich Gamma, Richard Helm, Ralph Johnson, John vlissides 공저, 김정아 역 / (주)피어슨 에듀케이션 코리아
