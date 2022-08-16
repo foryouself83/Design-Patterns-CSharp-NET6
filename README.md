@@ -11,7 +11,7 @@ Framework: .NET 6.0
 # Design Pattern
 ## Creational Pattern
 ### Abstact Factory
-> 구체적인 클래스를 지정하지 않고 관련성을 갖는 객체들의 집합을 생성하거나 서로 독립적인 객체들의 집합을 생성할 수 있는 인터페이스를 제공한다.<sup>[1](#GoF Book)</sup>
+> 구체적인 클래스를 지정하지 않고 관련성을 갖는 객체들의 집합을 생성하거나 서로 독립적인 객체들의 집합을 생성할 수 있는 인터페이스를 제공한다.<sup>[1](#GoF Book<https://github.com/foryouself83/DesignPattern/blob/master/README.md#%EA%B0%81%EC%A3%BC>)</sup>
 ### Builder
 > 복합 객체의 생성 과정과 표현 방법을 분리함을써 동일한 생성 공정이 서로 다른 표현을 만들 수 있게 한다.
 ### Factory Method
