@@ -21,6 +21,7 @@ Framework: .NET 6.0
 > 클래스의 인스턴스는 오직 하나임을 보장하며 이 인스턴스에 접근할 수 있는 방법을 제공한다.[<sup>[1](#GoF Book)</sup>](<https://github.com/foryouself83/DesignPattern/blob/master/README.md#%EA%B0%81%EC%A3%BC>)
    
 ## Structural Pattern
+클래스와 객체간의 관계 또는 책임을 파악해서 설계를 용이하게 하기 위해 사용한다.
 ### Adapter
 > 클래스의 인터페이스를 클라이언트가 기대하는 다른 인터페이스로 변환한다. 호환성이 없는 인터페이스 때문에 함께 사용할 수 없는 클래스를 개조하여 동작하도록 해준다.[<sup>[1](#GoF Book)</sup>](<https://github.com/foryouself83/DesignPattern/blob/master/README.md#%EA%B0%81%EC%A3%BC>)
 ### Bridge
@@ -35,7 +36,9 @@ Framework: .NET 6.0
 > 작은 크기의 객체들이 여러 개 있는 경우 객체를 효과적으로 사용하는 방법으로 객체를 공유하게 한다.[<sup>[1](#GoF Book)</sup>](<https://github.com/foryouself83/DesignPattern/blob/master/README.md#%EA%B0%81%EC%A3%BC>)
 ### proxy
 > 다른 객체로의 접근을 통제하기 위해서 다른 객체의 대리자 또는 다른 객체로의 정보 보유자를 제공한다.[<sup>[1](#GoF Book)</sup>](<https://github.com/foryouself83/DesignPattern/blob/master/README.md#%EA%B0%81%EC%A3%BC>)
+   
 ## Behavioral Pattern
+알고리즘과 객체 간의 책임 분배에 관련된 패턴으로 객체 간의 결합도를 낮춰 유연성을 향상 시키기위해 사용한다.
 ### Chain of Responsibility
 > 요청을 처리할 수 있는 기회를 하나 이상의 객체에 부여함으로써 요청하는 객체와 처리하는 객체 사이의 결합도를 없애려는 것이다. 요청을 해결할 객체를 만날 때까지 객체 고리를 따라서 요청을 전달한다.[<sup>[1](#GoF Book)</sup>](<https://github.com/foryouself83/DesignPattern/blob/master/README.md#%EA%B0%81%EC%A3%BC>)
 ### Command
