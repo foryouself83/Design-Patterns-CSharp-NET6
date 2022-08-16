@@ -39,7 +39,7 @@ Framework: .NET 6.0
    
 ## Behavioral Pattern
 알고리즘과 객체 간의 책임 분배에 관련된 패턴으로 객체 간의 결합도를 낮춰 유연성을 향상 시키기위해 사용한다.
-### Chain of Responsibility
+### [Chain of Responsibility](<https://github.com/foryouself83/DesignPattern/tree/master/ChainOfResponsibility>)
 > 요청을 처리할 수 있는 기회를 하나 이상의 객체에 부여함으로써 요청하는 객체와 처리하는 객체 사이의 결합도를 없애려는 것이다. 요청을 해결할 객체를 만날 때까지 객체 고리를 따라서 요청을 전달한다.[<sup>[1](#GoF Book)</sup>](<https://github.com/foryouself83/DesignPattern/blob/master/README.md#%EA%B0%81%EC%A3%BC>)
 ### Command
 > 요청을 객체로 캡슐화함으로써 서로 다른 요청으로 클라이언트를 파라미터화하고, 요청을 저장하거나 기록을 남겨서 오퍼레이션의 취소도 가능하게 한다.[<sup>[1](#GoF Book)</sup>](<https://github.com/foryouself83/DesignPattern/blob/master/README.md#%EA%B0%81%EC%A3%BC>)
