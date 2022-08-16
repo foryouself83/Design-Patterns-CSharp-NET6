@@ -6,7 +6,7 @@ namespace Compound.FactoryNode
     {
         private List<ProcessNode> _nodes = new();
 
-        public override ProcessNode GetNode(string uId)
+        public override ProcessNode CreateNode(string uId)
         {
             if (_nodes.Find(x => x.UId == uId) is ProcessNode node)
                 return node;

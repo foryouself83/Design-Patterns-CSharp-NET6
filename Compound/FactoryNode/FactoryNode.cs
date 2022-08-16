@@ -6,7 +6,7 @@ namespace Compound.FactoryNode
     {
         private static FactoryNode? _instance = null;
         private Dictionary<Type, IFatoryNode> _factories = new Dictionary<Type, IFatoryNode>();
-        public static object GetNode(Type type)
+        public static object CreateNode(Type type)
         {
             // singleton pattern
             if (_instance == null)
@@ -21,9 +21,9 @@ namespace Compound.FactoryNode
 
             return _instance._factories[type];
         }
-        public static T GetNode<T>() where T : IFatoryNode
+        public static T CreateNode<T>() where T : IFatoryNode
         {
-            return (T)GetNode(typeof(T));
+            return (T)CreateNode(typeof(T));
         }
     }
 }

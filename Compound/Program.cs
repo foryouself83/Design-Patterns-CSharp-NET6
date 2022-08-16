@@ -6,9 +6,9 @@ class Program
 {
     static void Main(string[] args)
     {
-        var factoryNode = FactoryNode.GetNode<FactoryResponsibilityNode>();
-        factoryNode.GetNode(Guid.NewGuid().ToString());
-        factoryNode.GetNode(Guid.NewGuid().ToString());
+        var factoryNode = FactoryNode.CreateNode<FactoryResponsibilityNode>();
+        factoryNode.CreateNode(Guid.NewGuid().ToString());
+        factoryNode.CreateNode(Guid.NewGuid().ToString());
 
         var nodes = factoryNode.GetResponsibilityNodes();
 

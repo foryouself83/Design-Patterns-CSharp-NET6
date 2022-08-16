@@ -6,7 +6,7 @@ namespace Compound.FactoryNode
     {
         private List<ResponsibilityNode> _nodes = new();
 
-        public override ResponsibilityNode GetNode(string uId)
+        public override ResponsibilityNode CreateNode(string uId)
         {
             if (_nodes.Find(x => x.UId == uId) is ResponsibilityNode node)
                 return node;
