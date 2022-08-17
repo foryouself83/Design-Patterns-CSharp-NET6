@@ -34,6 +34,8 @@ Framework: .NET 6.0
 > 서브 시스템에 있는 인터페이스 집합에 대해서 하나의 통합된 인터페이스를 제공한다. 서브 시스템을 좀 더 사용하기 편하게 하기 위해서 높은 수준의 인터페이스를 제공한다.[<sup>[1]</sup>](<https://github.com/foryouself83/DesignPattern/blob/master/README.md#%EA%B0%81%EC%A3%BC>)
 ### [Flyweight](<https://github.com/foryouself83/DesignPattern/tree/master/Compound>)
 > 작은 크기의 객체들이 여러 개 있는 경우 객체를 효과적으로 사용하는 방법으로 객체를 공유하게 한다.[<sup>[1]</sup>](<https://github.com/foryouself83/DesignPattern/blob/master/README.md#%EA%B0%81%EC%A3%BC>)
+
+생성에 시간이 오래 소요되는 객체가 있을 경우(ex. file I/O, Web request) 최초 생성시에만 객체를 생성하고 이후에는 생성된 객체를 공유하도록 한다. 띠리사 븚필요한 객체 생성을 방지하고 메모리 및 성능 향상에 도움이 된다.
 ### proxy
 > 다른 객체로의 접근을 통제하기 위해서 다른 객체의 대리자 또는 다른 객체로의 정보 보유자를 제공한다.[<sup>[1]</sup>](<https://github.com/foryouself83/DesignPattern/blob/master/README.md#%EA%B0%81%EC%A3%BC>)
    
