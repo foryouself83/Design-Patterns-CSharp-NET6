@@ -49,6 +49,7 @@ Framework: .NET 6.0
 > 내부 표현 방법을 노출하지 않고 복합 객체의 원소를 순차적으로 접근할 수 있는 방법을 제공한다.[<sup>[1]</sup>](<https://github.com/foryouself83/DesignPattern/blob/master/README.md#%EA%B0%81%EC%A3%BC>)
 ### [Mediator](<https://github.com/foryouself83/DesignPattern/tree/master/Mediator>)
 > 객체들 간의 상호 작용을 객체로 캡슐화한다. 객체들 간의 참조 관계를 객체에서 분리함을써 상호작용만을 독립적으로 다양하게 확대할 수 있다.[<sup>[1]</sup>](<https://github.com/foryouself83/DesignPattern/blob/master/README.md#%EA%B0%81%EC%A3%BC>)
+
 M:N 관계에 해당 패턴을 사용하면 M:1 관계로 만들어 복잡도를 내릴 수 있습니다. 또한 상호작용에 대한 부분이 한 객체에 모여있어 구현이 편해지는 장점이 있습니다.
 ### Memento
 > 캡슐화를 위배하지 않고 객체 내부 상태를 객체화하여, 나중에 객체가 이 상태로 복구 가능하게 한다.[<sup>[1]</sup>](<https://github.com/foryouself83/DesignPattern/blob/master/README.md#%EA%B0%81%EC%A3%BC>)
