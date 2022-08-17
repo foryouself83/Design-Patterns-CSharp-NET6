@@ -1,4 +1,4 @@
-# GoF Design Pattern   
+# Design Pattern   
 
 # 환경
 Language: C# 10.0   
@@ -7,8 +7,8 @@ Framework: .NET 6.0
 # 목차
 * Design Pattern
 * Sample Code
-   
-# Design Pattern
+
+# GoF Design Pattern
 ## Creational Pattern
 객체 생성 매커니즘을 다루는 디자인 패턴으로 설계 과정에서 문제를 일으키거나 복잡성을 줄이기 위해 사용한다.
 ### Abstact Factory
@@ -68,6 +68,9 @@ M:N 관계에 해당 패턴을 사용하면 M:1 관계로 만들어 복잡도를
 > 오퍼레이션에는 알고리즘의 처리 과정만 정의하고 각 단계에서 수행할 구체적 처리는 서브클래스에 정의한다. 알고리즘의 처리 과정은 변경하지 않고 알고리즘 각 단계의 처리를 서브 클래스에서 재정의할 수 있게 한다.[<sup>[1]</sup>](<https://github.com/foryouself83/DesignPattern/blob/master/README.md#%EA%B0%81%EC%A3%BC>)
 ### Visitor
 > 객체 구조의 요소들에 수행할 오퍼레이션을 표현한 패턴이다. 오퍼레이션이 처리할 요소의 클래스를 변경하지 않고도 새로운 오퍼레이션을 정의할 수 있게 한다.[<sup>[1]</sup>](<https://github.com/foryouself83/DesignPattern/blob/master/README.md#%EA%B0%81%EC%A3%BC>)
-   
+
+# [Compound Pattern](<https://github.com/foryouself83/DesignPattern/tree/master/Compound>)
+두개 이상의 패턴을 이용하여 일반적인 문제를 해결하는 패턴이다. 대표적인 예로 MVC 패턴이 있다.
+
 ## 각주
 <a name="GoF Design Pattern Book">1</a>: Gof의 디자인 패턴 / Erich Gamma, Richard Helm, Ralph Johnson, John vlissides 공저, 김정아 역 / (주)피어슨 에듀케이션 코리아
