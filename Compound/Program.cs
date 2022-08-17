@@ -1,4 +1,5 @@
-﻿using Compound.FactoryNode;
+﻿using System.Diagnostics;
+using Compound.FactoryNode;
 using Compound.FactoryNode.Detail.Window;
 using Compound.FactoryNode.Node;
 
@@ -22,6 +23,8 @@ class Program
             node.SetDetailDialog(window);
             node.SetDetailDialog(window);
             node.SetDetailDialog(window);
+
+            Debug.Assert(node.GetValidation());
         }
 
         if (nodes.Any())
