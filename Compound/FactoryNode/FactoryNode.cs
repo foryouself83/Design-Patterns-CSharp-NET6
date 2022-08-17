@@ -6,22 +6,38 @@ namespace Compound.FactoryNode
     {
         private static FactoryNode? _instance = null;
         private Dictionary<Type, IFatoryNode> _factories = new Dictionary<Type, IFatoryNode>();
-        public static object CreateNode(Type type)
+
+        /// <summary>
+        /// Singleton pattern
+        /// </summary>
+        /// <returns></returns>
+        public static FactoryNode GetInstance()
         {
-            // singleton pattern
+            // instance가 null 일경우 생성하여 1개의 객체를 유지하도록 한다.
             if (_instance == null)
                 _instance = new FactoryNode();
 
-            // flyweight pattern
-            if (!_instance._factories.ContainsKey(type))
+            return _instance;
+        }
+        /// <summary>
+        /// Flyweight pattern
+        /// </summary>
+        /// <param name="type"></param>
+        /// <returns></returns>
+        public object CreateNode(Type type)
+        {
+            if (!_factories.ContainsKey(type))
             {
+                // Reflection과 Type을 이용하여 동적으로 객체를 생성하고 생성된 객체를 비교하여 추가한다.
                 if (Activator.CreateInstance(type) is IFatoryNode node)
-                    _instance._factories.Add(type, node);
+                    _factories.Add(type, node);
+                else
+                    throw new ArgumentException(nameof(type));
             }
 
-            return _instance._factories[type];
+            return _factories[type];
         }
-        public static T CreateNode<T>() where T : IFatoryNode
+        public T CreateNode<T>() where T : IFatoryNode
         {
             return (T)CreateNode(typeof(T));
         }

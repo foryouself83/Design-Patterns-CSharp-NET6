@@ -10,7 +10,7 @@
     public interface INode
     {
         public void SetDetailList(string subDetail);
-        public bool SetValidation();
+        public bool GetValidation();
         public void SetDetailDialog(IWindow window);
     }
 }

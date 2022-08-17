@@ -6,11 +6,13 @@ class Program
 {
     static void Main(string[] args)
     {
-        var factoryNode = FactoryNode.CreateNode<FactoryResponsibilityNode>();
-        factoryNode.CreateNode(Guid.NewGuid().ToString());
-        factoryNode.CreateNode(Guid.NewGuid().ToString());
+        var factoryNode = FactoryNode.GetInstance();
 
-        var nodes = factoryNode.GetResponsibilityNodes();
+        var responsibilityNodes = factoryNode.CreateNode<FactoryResponsibilityNode>();
+        responsibilityNodes.CreateNode(Guid.NewGuid().ToString());
+        responsibilityNodes.CreateNode(Guid.NewGuid().ToString());
+
+        var nodes = responsibilityNodes.GetResponsibilityNodes();
 
         foreach (ResponsibilityNode node in nodes)
         {
@@ -28,7 +30,7 @@ class Program
             {
                 Console.WriteLine($"Node Id: {node.UId}");
 
-                foreach (var detail in node.SubDetails)
+                foreach (var detail in node.GetEnumerator())
                     Console.WriteLine($"Sub Detail: {detail.Detail}");
 
                 Console.WriteLine();

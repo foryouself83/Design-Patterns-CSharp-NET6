@@ -2,13 +2,14 @@
 
 namespace Compound.FactoryNode.Node
 {
-    public class ProcessNode : AbstractNode
+    public class ProcessNode : AbstractNode<SubDetail>
     {
+        private readonly string _preset = "PC-";
         private string _uid = string.Empty;
-        private List<SubDetail> _details = new();
+        private int _count = 0;
+        private List<SubDetail> _subDetails = new();
 
         public string UId => _uid;
-        public List<SubDetail> Details => _details;
 
         public ProcessNode(string uid)
         {
@@ -16,12 +17,17 @@ namespace Compound.FactoryNode.Node
         }
         public override void SetDetailList(string subDetail)
         {
-            if (!_details.Any(x => x.Detail.Equals(subDetail)))
-                _details.Add(new SubDetail(subDetail));
+            if (!_subDetails.Any(x => x.Detail.Equals(subDetail)))
+                _subDetails.Add(new SubDetail($"{_preset}{++_count}", subDetail));
         }
-        public override bool SetValidation()
+        public override bool GetValidation()
         {
-            throw new NotImplementedException();
+            var e = _subDetails.GetEnumerator();
+            return _subDetails.Any(x => !x.Id.Equals(_preset));
+        }
+        public override IEnumerable<SubDetail> GetEnumerator()
+        {
+            return _subDetails;
         }
     }
 }
