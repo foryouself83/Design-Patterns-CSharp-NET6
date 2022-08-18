@@ -6,7 +6,7 @@ Framework: .NET 6.0
    
 # 목차
 * [GoF Design Pattern](https://github.com/foryouself83/DesignPattern/blob/master/README.md#gof-design-pattern)
-* [Compound Pattern](<https://github.com/foryouself83/DesignPattern/tree/master/Compound>)
+* [Compound Pattern](https://github.com/foryouself83/DesignPattern/blob/master/README.md#compound-pattern)
 
 # GoF Design Pattern
 ## 문제 해결 방법
