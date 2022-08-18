@@ -9,6 +9,15 @@ Framework: .NET 6.0
 * Sample Code
 
 # GoF Design Pattern
+## 문제 해결 방법
+- **적당한 객체 찾기**
+프로세스나 알고리즘을 객체로 만들고 Strategy, State, Visit 등을 이용해 설계를 좀 더 유연하고 재사용한 것으로 만들려는 노력이 필요하다.
+- **객체 크기와 책임 결정**
+Facade을 이용하여 서브 시스템을 어떻게 객체로 만들 수 있고 Flyweight을 이용하여 많은 객체를 효율적으로 다룰 수 있다.   
+Abstact Factory, Builder를 이용하여 다른 객체를 생성하는 책임만 갖는 객체를 만들거나 Visitor, Command 등을 이용하여 다른 객체에서 요청에 대한 책임을 갖도록 객체를 만들 수 있다.
+- **객체 인터페이스 명세**
+인터페이스는 구현에 대해서는 전혀 알려주지 않기 때문에 인터페이스를 정의한 서로 다른 객체에서 구현 방법을 결정할 수 있다. 동일한 인터페이스를 갖는 객체들은 완전히 다른 구현을 가질 수 있다는 것으로 동일한 요청이라도 처리하는 객체에 따라 전혀 다른 결과가 나올 수 있다. 요청을 처리할 객체를 런타임 시에 결정하는 기법을 ***동적 바인딩(dynamic binding)*** 이라고 한다.
+
 ## Creational Pattern
 객체 생성 매커니즘을 다루는 디자인 패턴으로 설계 과정에서 문제를 일으키거나 복잡성을 줄이기 위해 사용한다.
 ### Abstact Factory
@@ -71,6 +80,8 @@ M:N 관계에 해당 패턴을 사용하면 M:1 관계로 만들어 복잡도를
 
 # [Compound Pattern](<https://github.com/foryouself83/DesignPattern/tree/master/Compound>)
 두개 이상의 패턴을 이용하여 일반적인 문제를 해결하는 패턴이다. 대표적인 예로 MVC 패턴이 있다.
-
+ ## MVC
+ ## MVP
+ ## MVVM
 ## 각주
 <a name="GoF Design Pattern Book">1</a>: Gof의 디자인 패턴 / Erich Gamma, Richard Helm, Ralph Johnson, John vlissides 공저, 김정아 역 / (주)피어슨 에듀케이션 코리아
