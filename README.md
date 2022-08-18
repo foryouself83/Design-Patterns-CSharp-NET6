@@ -5,8 +5,8 @@ Language: C# 10.0
 Framework: .NET 6.0
    
 # 목차
-* Design Pattern
-* Sample Code
+* GoF Design Pattern
+* [Compound Pattern](<https://github.com/foryouself83/DesignPattern/tree/master/Compound>)
 
 # GoF Design Pattern
 ## 문제 해결 방법
