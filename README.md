@@ -21,8 +21,8 @@ Abstact Factory, Builder를 이용하여 다른 객체를 생성하는 책임만
 - **인터페이스 관점의 개발**
 클래스 상속은 기본적으로 부모 클래스에 정의한 구현의 재사용을 통해 기능성을 확장하는 매커니즘이다. 모든 클래스가 추상 클래스를 상속하도록 하여 인터페이스를 공유할 수 있게 된다면 부모 클래스에 정의된 요청을 자식 클래스에 전달되어도 처리할 수 있다는 의미이다. 이는 자식 클래스 간의 구현 종속성을 저하시키며 재사용 가능한 객체지향 원칙을 만족한다.
 - **디자인 패턴 선택**
-- 특정 클래스로부터 객체 생성 시 클래스 이름을 명시하면 구현에 종속되므로 객체를 직접 생성하지 않는다.
-- 디자인 패턴: Abstact Factory, [Factory Method](<https://github.com/foryouself83/DesignPattern/tree/master/Compound>), Prototype
+ - 특정 클래스로부터 객체 생성 시 클래스 이름을 명시하면 구현에 종속되므로 객체를 직접 생성하지 않는다.
+  - 디자인 패턴: Abstact Factory, [Factory Method](<https://github.com/foryouself83/DesignPattern/tree/master/Compound>), Prototype
 
 
 ## Creational Pattern
