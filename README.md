@@ -1,8 +1,4 @@
 # Design Pattern   
-
-# 환경
-Language: C# 10.0   
-Framework: .NET 6.0
    
 # 목차
 * [GoF Design Pattern](https://github.com/foryouself83/DesignPattern/blob/master/README.md#gof-design-pattern)
