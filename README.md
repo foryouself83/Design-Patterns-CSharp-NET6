@@ -28,11 +28,11 @@ Facade을 이용하여 서브 시스템을 어떻게 객체로 만들 수 있고
     > 디자인 패턴: Abstact Factory, Bridge
   - 객체의 구현의 종속성
     > 디자인 패턴: Abstact Factory, Bridge, Memento, Proxy
-  - 알고리즘의 종속
+  - 알고리즘의 종속성
     > 디자인 패턴: Builder, Iterator, Strategy, Template Method, Visitor
   - 높은 결합도
     > 디자인 패턴: Abstact Factory, Bridge, [Chain of Responsibility](<https://github.com/foryouself83/DesignPattern/tree/master/ChainOfResponsibility>), [Command](<https://github.com/foryouself83/DesignPattern/tree/master/Command>), Facade, [Mediator](<https://github.com/foryouself83/DesignPattern/tree/master/Mediator>), Observer
-  - 서브클래싱을 통한 기능성 확장
+  - 서브클래싱을 통한 기능성 확장성
     > 디자인 패턴: Bridge, [Chain of Responsibility](<https://github.com/foryouself83/DesignPattern/tree/master/ChainOfResponsibility>), Decorator, Observer, Strategy
   - 클래스 변경의 편의성
     > 디자인 패턴: Adapter, Decorator, Visitor
