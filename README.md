@@ -1,8 +1,16 @@
 # Design Pattern   
    
 # 목차
+* 개발 정보
 * [GoF Design Pattern](https://github.com/foryouself83/DesignPattern/blob/master/README.md#gof-design-pattern)
-* [Compound Pattern](https://github.com/foryouself83/DesignPattern/blob/master/README.md#compound-pattern)
+* [Compound Pattern](https://github.com/foryouself83/DesignPattern/blob/master/README.md#compound-pattern)   
+
+
+# 개발 정보
+* .NET 6.0   
+* C# 10.0   
+* Visual Studio 2022   
+
 
 # GoF Design Pattern
 ## 문제 해결 방법
