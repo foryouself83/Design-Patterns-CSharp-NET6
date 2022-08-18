@@ -13,7 +13,7 @@
 
         public override bool CanValidation(object obj)
         {
-            return obj is Hazzard { } uca && uca.Id.StartsWith("HS");
+            return obj is Hazzard { } uca && uca.Id.StartsWith("H");
         }
 
         public override void Validation(object obj)

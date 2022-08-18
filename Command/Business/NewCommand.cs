@@ -6,7 +6,7 @@ namespace Command.Command.Business
     {
         public void Execute()
         {
-            Console.WriteLine("불러오기");
+            Console.WriteLine("새로 만들기");
         }
     }
 }
