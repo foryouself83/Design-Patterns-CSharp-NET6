@@ -5,7 +5,7 @@ Language: C# 10.0
 Framework: .NET 6.0
    
 # 목차
-* GoF Design Pattern
+* [GoF Design Pattern](https://github.com/foryouself83/DesignPattern/blob/master/README.md#gof-design-pattern)
 * [Compound Pattern](<https://github.com/foryouself83/DesignPattern/tree/master/Compound>)
 
 # GoF Design Pattern
