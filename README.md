@@ -17,7 +17,7 @@ Framework: .NET 6.0
 > 복합 객체의 생성 과정과 표현 방법을 분리함을써 동일한 생성 공정이 서로 다른 표현을 만들 수 있게 한다.[<sup>[1]</sup>](<https://github.com/foryouself83/DesignPattern/blob/master/README.md#%EA%B0%81%EC%A3%BC>)
 ### [Factory Method](<https://github.com/foryouself83/DesignPattern/tree/master/Compound>)
 > 객체를 생성하는 인터페이스를 정의 하지만, 인스턴스를 만들 클래스의 결정은 서브 클래스가 한다. 클래스의 인스턴스를 만드는 시점을 서브클래스로 미룬다.[<sup>[1]</sup>](<https://github.com/foryouself83/DesignPattern/blob/master/README.md#%EA%B0%81%EC%A3%BC>)
-### [Singletorn](<https://github.com/foryouself83/DesignPattern/tree/master/Compound>)
+### [Singleton](<https://github.com/foryouself83/DesignPattern/tree/master/Compound>)
 > 클래스의 인스턴스는 오직 하나임을 보장하며 이 인스턴스에 접근할 수 있는 방법을 제공한다.[<sup>[1]</sup>](<https://github.com/foryouself83/DesignPattern/blob/master/README.md#%EA%B0%81%EC%A3%BC>)
    
 ## Structural Pattern
@@ -35,7 +35,7 @@ Framework: .NET 6.0
 ### [Flyweight](<https://github.com/foryouself83/DesignPattern/tree/master/Compound>)
 > 작은 크기의 객체들이 여러 개 있는 경우 객체를 효과적으로 사용하는 방법으로 객체를 공유하게 한다.[<sup>[1]</sup>](<https://github.com/foryouself83/DesignPattern/blob/master/README.md#%EA%B0%81%EC%A3%BC>)
 
-생성에 시간이 오래 소요되는 객체가 있을 경우(ex. file I/O, Web request) 최초 생성시에만 객체를 생성하고 이후에는 생성된 객체를 공유하도록 한다. 띠리사 븚필요한 객체 생성을 방지하고 메모리 및 성능 향상에 도움이 된다.
+생성에 시간이 오래 소요되는 객체가 있을 경우(ex. I/O) 최초 생성시에만 객체를 생성하고 이후에는 생성된 객체를 공유하도록 한다. 불필요한 객체 생성을 방지하고 메모리 및 성능 향상에 도움이 된다.
 ### proxy
 > 다른 객체로의 접근을 통제하기 위해서 다른 객체의 대리자 또는 다른 객체로의 정보 보유자를 제공한다.[<sup>[1]</sup>](<https://github.com/foryouself83/DesignPattern/blob/master/README.md#%EA%B0%81%EC%A3%BC>)
    
@@ -55,7 +55,7 @@ Framework: .NET 6.0
 ### [Mediator](<https://github.com/foryouself83/DesignPattern/tree/master/Mediator>)
 > 객체들 간의 상호 작용을 객체로 캡슐화한다. 객체들 간의 참조 관계를 객체에서 분리함을써 상호작용만을 독립적으로 다양하게 확대할 수 있다.[<sup>[1]</sup>](<https://github.com/foryouself83/DesignPattern/blob/master/README.md#%EA%B0%81%EC%A3%BC>)
 
-M:N 관계에 해당 패턴을 사용하면 M:1 관계로 만들어 복잡도를 내릴 수 있습니다. 또한 상호작용에 대한 부분이 한 객체에 모여있어 구현이 편해지는 장점이 있습니다.
+M:N 관계에 해당 패턴을 사용하면 M:1 관계로 만들어 복잡도를 내릴 수 있다. 또한 상호작용에 대한 부분이 한 객체에 모여있어 구현이 편해지는 장점이 있다.
 ### Memento
 > 캡슐화를 위배하지 않고 객체 내부 상태를 객체화하여, 나중에 객체가 이 상태로 복구 가능하게 한다.[<sup>[1]</sup>](<https://github.com/foryouself83/DesignPattern/blob/master/README.md#%EA%B0%81%EC%A3%BC>)
 ### Observer
