@@ -102,8 +102,8 @@ M:N 관계에 해당 패턴을 사용하면 M:1 관계로 만들어 복잡도를
 
 # [Compound Pattern](<https://github.com/foryouself83/DesignPattern/tree/master/Compound>)
 두개 이상의 패턴을 이용하여 일반적인 문제를 해결하는 패턴이다. 대표적인 예로 MVC 패턴이 있다.
-  ## MVC
-  ## MVP
-  ## MVVM
+  ## MVC   
+  ## MVP   
+  ## MVVM   
 ## 각주
 <a name="GoF Design Pattern Book">1</a>: Gof의 디자인 패턴 / Erich Gamma, Richard Helm, Ralph Johnson, John vlissides 공저, 김정아 역 / (주)피어슨 에듀케이션 코리아
