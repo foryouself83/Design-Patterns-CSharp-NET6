@@ -15,11 +15,11 @@
 # GoF Design Pattern
 ## 문제 해결 방법
 - **적당한 객체 찾기**   
-프로세스나 알고리즘을 객체로 만들고 Strategy, State, Visit 등을 이용해 설계를 좀 더 `유연하고 재사용`한 것으로 만들려는 노력이 필요하다.   
+프로세스나 알고리즘을 객체로 만들고 [Strategy](https://github.com/foryouself83/DesignPattern/blob/master/README.md#strategy), [State](https://github.com/foryouself83/DesignPattern/blob/master/README.md#state), [Visitor](https://github.com/foryouself83/DesignPattern/blob/master/README.md#visitor) 등을 이용해 설계를 좀 더 `유연하고 재사용`한 것으로 만들려는 노력이 필요하다.   
 
 
 - **객체 크기와 책임 결정**   
-Facade을 이용하여 서브 시스템을 어떻게 객체로 만들 수 있고 [Flyweight](https://github.com/foryouself83/DesignPattern/blob/master/README.md#flyweight)을 이용하여 많은 객체를 효율적으로 다룰 수 있다. Abstact Factory, Builder를 이용하여 다른 객체를 `생성하는 책임`만 갖는 객체를 만들거나 Visitor, [Command](https://github.com/foryouself83/DesignPattern/blob/master/README.md#Command) 등을 이용하여 다른 객체에서 `요청에 대한 책임`을 갖도록 객체를 만들 수 있다.   
+[Facade](https://github.com/foryouself83/DesignPattern/blob/master/README.md#facade) 이용하여 서브 시스템을 어떻게 객체로 만들 수 있고 [Flyweight](https://github.com/foryouself83/DesignPattern/blob/master/README.md#flyweight)을 이용하여 많은 객체를 효율적으로 다룰 수 있다. [Abstact Factory](https://github.com/foryouself83/DesignPattern/blob/master/README.md#abstact-factory), [Builder](https://github.com/foryouself83/DesignPattern/blob/master/README.md#builder)를 이용하여 다른 객체를 `생성하는 책임`만 갖는 객체를 만들거나 [Visitor](https://github.com/foryouself83/DesignPattern/blob/master/README.md#visitor), [Command](https://github.com/foryouself83/DesignPattern/blob/master/README.md#Command) 등을 이용하여 다른 객체에서 `요청에 대한 책임`을 갖도록 객체를 만들 수 있다.   
 
 
 - **객체 인터페이스 명세**   
@@ -32,21 +32,21 @@ Facade을 이용하여 서브 시스템을 어떻게 객체로 만들 수 있고
 
 - **디자인 패턴 선택**
   - 특정 클래스로부터 객체 생성으로 인한 종속성
-    > 디자인 패턴: Abstact Factory, [Factory Method](https://github.com/foryouself83/DesignPattern/blob/master/README.md#factory-method), Prototype    
+    > 디자인 패턴: [Abstact Factory](https://github.com/foryouself83/DesignPattern/blob/master/README.md#abstact-factory), [Factory Method](https://github.com/foryouself83/DesignPattern/blob/master/README.md#factory-method), [Prototype](https://github.com/foryouself83/DesignPattern/blob/master/README.md#prototype)    
   - 특정 오퍼레이션으로의 종속성
     > 디자인 패턴: [Chain of Responsibility](https://github.com/foryouself83/DesignPattern/blob/master/README.md#chain-of-responsibility), [Command](https://github.com/foryouself83/DesignPattern/blob/master/README.md#Command)
   - 하드웨어와 소프트웨어 플랫폼의 종속성
-    > 디자인 패턴: Abstact Factory, Bridge
+    > 디자인 패턴: [Abstact Factory](https://github.com/foryouself83/DesignPattern/blob/master/README.md#abstact-factory), [Bridge](https://github.com/foryouself83/DesignPattern/blob/master/README.md#bridge)
   - 객체의 구현의 종속성
-    > 디자인 패턴: Abstact Factory, Bridge, Memento, Proxy
+    > 디자인 패턴: [Abstact Factory](https://github.com/foryouself83/DesignPattern/blob/master/README.md#abstact-factory), [Bridge](https://github.com/foryouself83/DesignPattern/blob/master/README.md#bridge), [Memento](https://github.com/foryouself83/DesignPattern/blob/master/README.md#memento), [Proxy](https://github.com/foryouself83/DesignPattern/blob/master/README.md#proxy)
   - 알고리즘의 종속성
-    > 디자인 패턴: Builder, Iterator, Strategy, Template Method, Visitor
+    > 디자인 패턴: [Builder](https://github.com/foryouself83/DesignPattern/blob/master/README.md#builder), [Iterator](https://github.com/foryouself83/DesignPattern/blob/master/README.md#iterator), [Strategy](https://github.com/foryouself83/DesignPattern/blob/master/README.md#strategy), [Template Method](https://github.com/foryouself83/DesignPattern/blob/master/README.md#template-method), [Visitor](https://github.com/foryouself83/DesignPattern/blob/master/README.md#visitor)
   - 높은 결합도
-    > 디자인 패턴: Abstact Factory, Bridge, [Chain of Responsibility](https://github.com/foryouself83/DesignPattern/blob/master/README.md#chain-of-responsibility), [Command](https://github.com/foryouself83/DesignPattern/blob/master/README.md#Command), Facade, [Mediator](https://github.com/foryouself83/DesignPattern/blob/master/README.md#mediator), Observer
+    > 디자인 패턴: [Abstact Factory](https://github.com/foryouself83/DesignPattern/blob/master/README.md#abstact-factory), [Bridge](https://github.com/foryouself83/DesignPattern/blob/master/README.md#bridge), [Chain of Responsibility](https://github.com/foryouself83/DesignPattern/blob/master/README.md#chain-of-responsibility), [Command](https://github.com/foryouself83/DesignPattern/blob/master/README.md#Command), [Facade](https://github.com/foryouself83/DesignPattern/blob/master/README.md#facade), [Mediator](https://github.com/foryouself83/DesignPattern/blob/master/README.md#mediator), [Observer](https://github.com/foryouself83/DesignPattern/blob/master/README.md#Observer)
   - 서브클래싱을 통한 기능성 확장성
-    > 디자인 패턴: Bridge, [Chain of Responsibility](https://github.com/foryouself83/DesignPattern/blob/master/README.md#chain-of-responsibility), Decorator, Observer, Strategy
+    > 디자인 패턴: [Bridge](https://github.com/foryouself83/DesignPattern/blob/master/README.md#bridge), [Chain of Responsibility](https://github.com/foryouself83/DesignPattern/blob/master/README.md#chain-of-responsibility), [Decorator](https://github.com/foryouself83/DesignPattern/blob/master/README.md#decorator), [Observer](https://github.com/foryouself83/DesignPattern/blob/master/README.md#Observer), [Strategy](https://github.com/foryouself83/DesignPattern/blob/master/README.md#strategy)
   - 클래스 변경의 편의성
-    > 디자인 패턴: Adapter, Decorator, Visitor   
+    > 디자인 패턴: [Adapter](https://github.com/foryouself83/DesignPattern/blob/master/README.md#adapter), [Decorator](https://github.com/foryouself83/DesignPattern/blob/master/README.md#decorator), [Visitor](https://github.com/foryouself83/DesignPattern/blob/master/README.md#visitor)   
 
 
 ## Creational Pattern
