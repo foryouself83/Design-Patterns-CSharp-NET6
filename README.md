@@ -2,6 +2,7 @@
    
 # 목차
 * [개발 정보](https://github.com/foryouself83/DesignPattern/blob/master/README.md#%EA%B0%9C%EB%B0%9C-%EC%A0%95%EB%B3%B4)
+* 문제 해결
 * [GoF Design Pattern](https://github.com/foryouself83/DesignPattern/blob/master/README.md#gof-design-pattern)
 * [Compound Pattern](https://github.com/foryouself83/DesignPattern/blob/master/README.md#compound-pattern)   
 
