@@ -1,14 +1,45 @@
 # Design Pattern   
-
-# 환경
-Language: C# 10.0   
-Framework: .NET 6.0
    
 # 목차
-* Design Pattern
-* Sample Code
+* [개발 정보](https://github.com/foryouself83/DesignPattern/blob/master/README.md#%EA%B0%9C%EB%B0%9C-%EC%A0%95%EB%B3%B4)
+* [GoF Design Pattern](https://github.com/foryouself83/DesignPattern/blob/master/README.md#gof-design-pattern)
+* [Compound Pattern](https://github.com/foryouself83/DesignPattern/blob/master/README.md#compound-pattern)   
+
+
+# 개발 정보
+* .NET 6.0   
+* C# 10.0   
+* Visual Studio 2022   
+
 
 # GoF Design Pattern
+## 문제 해결 방법
+- **적당한 객체 찾기**   
+프로세스나 알고리즘을 객체로 만들고 Strategy, State, Visit 등을 이용해 설계를 좀 더 `유연하고 재사용`한 것으로 만들려는 노력이 필요하다.
+- **객체 크기와 책임 결정**   
+Facade을 이용하여 서브 시스템을 어떻게 객체로 만들 수 있고 [Flyweight](https://github.com/foryouself83/DesignPattern/blob/master/README.md#flyweight)을 이용하여 많은 객체를 효율적으로 다룰 수 있다. Abstact Factory, Builder를 이용하여 다른 객체를 `생성하는 책임`만 갖는 객체를 만들거나 Visitor, [Command](https://github.com/foryouself83/DesignPattern/blob/master/README.md#Command) 등을 이용하여 다른 객체에서 `요청에 대한 책임`을 갖도록 객체를 만들 수 있다.
+- **객체 인터페이스 명세**   
+인터페이스는 구현에 대해서는 전혀 알려주지 않기 때문에 인터페이스를 정의한 서로 다른 객체에서 구현 방법을 결정할 수 있다. 동일한 인터페이스를 갖는 객체들은 완전히 다른 구현을 가질 수 있다는 것으로 동일한 요청이라도 처리하는 객체에 따라 전혀 다른 결과가 나올 수 있다. 요청을 처리할 객체를 런타임 시에 결정하는 기법을 `동적 바인딩(dynamic binding)` 이라고 한다.
+이런 대체성은 객체 지향 프로그래밍의 3요소 중 하나인 `다형성` 이라는 핵심 개념이다.
+- **인터페이스 관점의 개발**   
+클래스 `상속`은 기본적으로 부모 클래스에 정의한 구현의 `재사용`을 통해 기능성을 확장하는 매커니즘이다. 모든 클래스가 `추상 클래스를 상속`하도록 하여 인터페이스를 공유할 수 있게 된다면 부모 클래스에 정의된 요청을 자식 클래스에 전달되어도 처리할 수 있다는 의미이다. 이는 자식 클래스 간의 `종속성`을 저하시키며 `재사용` 가능한 객체지향 원칙을 만족한다.
+- **디자인 패턴 선택**
+  - 특정 클래스로부터 객체 생성으로 인한 종속성
+    > 디자인 패턴: Abstact Factory, [Factory Method](https://github.com/foryouself83/DesignPattern/blob/master/README.md#factory-method), Prototype    
+  - 특정 오퍼레이션으로의 종속성
+    > 디자인 패턴: [Chain of Responsibility](https://github.com/foryouself83/DesignPattern/blob/master/README.md#chain-of-responsibility), [Command](https://github.com/foryouself83/DesignPattern/blob/master/README.md#Command)
+  - 하드웨어와 소프트웨어 플랫폼의 종속성
+    > 디자인 패턴: Abstact Factory, Bridge
+  - 객체의 구현의 종속성
+    > 디자인 패턴: Abstact Factory, Bridge, Memento, Proxy
+  - 알고리즘의 종속성
+    > 디자인 패턴: Builder, Iterator, Strategy, Template Method, Visitor
+  - 높은 결합도
+    > 디자인 패턴: Abstact Factory, Bridge, [Chain of Responsibility](https://github.com/foryouself83/DesignPattern/blob/master/README.md#chain-of-responsibility), [Command](https://github.com/foryouself83/DesignPattern/blob/master/README.md#Command), Facade, [Mediator](https://github.com/foryouself83/DesignPattern/blob/master/README.md#mediator), Observer
+  - 서브클래싱을 통한 기능성 확장성
+    > 디자인 패턴: Bridge, [Chain of Responsibility](https://github.com/foryouself83/DesignPattern/blob/master/README.md#chain-of-responsibility), Decorator, Observer, Strategy
+  - 클래스 변경의 편의성
+    > 디자인 패턴: Adapter, Decorator, Visitor
 ## Creational Pattern
 객체 생성 매커니즘을 다루는 디자인 패턴으로 설계 과정에서 문제를 일으키거나 복잡성을 줄이기 위해 사용한다.
 ### Abstact Factory
@@ -71,6 +102,8 @@ M:N 관계에 해당 패턴을 사용하면 M:1 관계로 만들어 복잡도를
 
 # [Compound Pattern](<https://github.com/foryouself83/DesignPattern/tree/master/Compound>)
 두개 이상의 패턴을 이용하여 일반적인 문제를 해결하는 패턴이다. 대표적인 예로 MVC 패턴이 있다.
-
+  ## MVC   
+  ## MVP   
+  ## MVVM   
 ## 각주
 <a name="GoF Design Pattern Book">1</a>: Gof의 디자인 패턴 / Erich Gamma, Richard Helm, Ralph Johnson, John vlissides 공저, 김정아 역 / (주)피어슨 에듀케이션 코리아
