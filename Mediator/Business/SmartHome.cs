@@ -14,7 +14,6 @@ namespace Mediator.Mediator.Business
             Window = new WIndow(this);
             AirCon = new AirCon(this);
         }
-
         public void ParticipantChanged(Participant participant)
         {
             switch (participant)
@@ -22,19 +21,29 @@ namespace Mediator.Mediator.Business
                 case Door door:
                     {
                         if (door.IsClosed())
-                            Window.Close();
+                        {
+                            if (AirCon.IsOff())
+                                Window.Open();
+                        }
                     }
                     break;
                 case WIndow window:
                     {
                         if (window.IsClosed())
                             AirCon.On();
+                        else
+                            AirCon.Off();
                     }
                     break;
                 case AirCon airCon:
                     {
                         if (airCon.IsOff())
                             Window.Open();
+                        else
+                        {
+                            Door.Close();
+                            Window.Close();
+                        }
                     }
                     break;
                 default:

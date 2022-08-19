@@ -4,33 +4,26 @@ namespace Mediator.Mediator.Business
 {
     internal class AirCon : Participant
     {
-        private bool _isOff = true;
-
-        public AirCon(IMediator mediator) : base(mediator)
+        public AirCon(IMediator mediator) : base(mediator, nameof(AirCon))
         {
         }
 
         public void On()
         {
-            if (!_isOff) return;
+            if (isOn) return;
 
-            _isOff = false;
+            isOn = true;
             mediator.ParticipantChanged(this);
         }
         public void Off()
         {
-            if (_isOff) return;
+            if (!isOn) return;
 
-            _isOff = true;
+            isOn = false;
             mediator.ParticipantChanged(this);
         }
 
-        public bool IsOff() => _isOff;
+        public bool IsOff() => !isOn;
 
-        public override string ToString()
-        {
-            if (_isOff) return "에어컨 꺼짐";
-            else return "에어컨 켜짐";
-        }
     }
 }
