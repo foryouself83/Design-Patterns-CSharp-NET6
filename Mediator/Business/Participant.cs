@@ -6,18 +6,22 @@ namespace Mediator.Mediator.Business
     {
         public string Name;
         protected bool isOn = false;
-        protected IMediator mediator;
+        private IMediator _mediator;
 
         public Participant(IMediator mediator, string name)
         {
             this.Name = name;
-            this.mediator = mediator;
+            this._mediator = mediator;
         }
 
         public override string ToString()
         {
             string state = isOn ? "On" : "Close";
             return $"{Name} {state}";
+        }
+        protected void OnStateChanged()
+        {
+            _mediator.ParticipantChanged(this);
         }
     }
 }

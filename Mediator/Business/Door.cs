@@ -14,17 +14,19 @@ namespace Mediator.Mediator.Business
             if (isOn) return;
 
             isOn = true;
-            mediator.ParticipantChanged(this);
+            base.OnStateChanged();
         }
         public void Close()
         {
             if (!isOn) return;
 
             isOn = false;
-            mediator.ParticipantChanged(this);
+            base.OnStateChanged();
         }
 
         public bool IsClosed() => !isOn;
+
+
 
     }
 }
