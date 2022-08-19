@@ -12,9 +12,7 @@
 * C# 10.0   
 * Visual Studio 2022   
 
-
-# GoF Design Pattern
-## 문제 해결 방법
+# 문제 해결 방법
 - **적당한 객체 찾기**   
 프로세스나 알고리즘을 객체로 만들고 [Strategy](https://github.com/foryouself83/DesignPattern/blob/master/README.md#strategy), [State](https://github.com/foryouself83/DesignPattern/blob/master/README.md#state), [Visitor](https://github.com/foryouself83/DesignPattern/blob/master/README.md#visitor) 등을 이용해 설계를 좀 더 `유연하고 재사용`한 것으로 만들려는 노력이 필요하다.   
 
@@ -49,6 +47,7 @@
   - 클래스 변경의 편의성
     > 디자인 패턴: [Adapter](https://github.com/foryouself83/DesignPattern/blob/master/README.md#adapter), [Decorator](https://github.com/foryouself83/DesignPattern/blob/master/README.md#decorator), [Visitor](https://github.com/foryouself83/DesignPattern/blob/master/README.md#visitor)   
 
+# GoF Design Pattern
 
 ## Creational Pattern
 객체 생성 매커니즘을 다루는 디자인 패턴으로 설계 과정에서 문제를 일으키거나 복잡성을 줄이기 위해 사용한다.
