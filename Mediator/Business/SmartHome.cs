@@ -4,9 +4,9 @@ namespace Mediator.Mediator.Business
 {
     internal class SmartHome : IMediator
     {
-        public Door Door;
-        public WIndow Window;
-        public AirCon AirCon;
+        public Door Door { get; private set; }
+        public WIndow Window { get; private set; }
+        public AirCon AirCon { get; private set; }
 
         public SmartHome()
         {
