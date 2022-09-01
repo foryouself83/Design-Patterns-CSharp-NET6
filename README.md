@@ -14,7 +14,7 @@
 
 # 문제 해결
 - **적당한 객체 찾기**   
-프로세스나 알고리즘을 객체로 만들고 [Strategy](https://github.com/foryouself83/DesignPattern/blob/master/README.md#strategy), [State](https://github.com/foryouself83/DesignPattern/blob/master/README.md#state), [Visitor](https://github.com/foryouself83/DesignPattern/blob/master/README.md#visitor) 등을 이용해 설계를 좀 더 `유연하고 재사용`한 것으로 만들려는 노력이 필요하다.   
+프로세스나 알고리즘을 객체로 만들고 [Strategy](https://github.com/foryouself83/DesignPattern/blob/master/README.md#strategy), [State](https://github.com/foryouself83/DesignPattern/blob/master/README.md#state), [Visitor](https://github.com/foryouself83/DesignPattern/blob/master/README.md#visitor) 등을 이용해 설계를 좀 더 `유연`하고 `재사용`한 것으로 만들려는 노력이 필요하다.   
 
 
 - **객체 크기와 책임 결정**   
