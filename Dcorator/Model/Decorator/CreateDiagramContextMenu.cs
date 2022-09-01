@@ -1,4 +1,4 @@
-﻿namespace Dcorator.Model.Decorator
+﻿namespace Decorator.Model.Decorator
 {
     public class CreateDiagramContextMenu : DiagramMenuItem
     {

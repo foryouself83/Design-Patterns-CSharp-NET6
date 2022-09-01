@@ -1,7 +1,7 @@
 ﻿using System.Collections.ObjectModel;
-using Dcorator.Model.Decorator;
+using Decorator.Model.Decorator;
 
-namespace Dcorator.Model.Node
+namespace Decorator.Model.Node
 {
     class CreateAlgorithmNodeContextMenu : DiagramMenuItem
     {

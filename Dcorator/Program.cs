@@ -1,5 +1,5 @@
 ﻿using System.Collections.ObjectModel;
-using Dcorator.Model.Node;
+using Decorator.Model.Node;
 
 class Program
 {

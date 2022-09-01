@@ -1,6 +1,6 @@
 ﻿using System.Collections.ObjectModel;
 
-namespace Dcorator.Model.Decorator
+namespace Decorator.Model.Decorator
 {
     class DiagramCopyContextMenu : DiagramContextMenuDecorator
     {
