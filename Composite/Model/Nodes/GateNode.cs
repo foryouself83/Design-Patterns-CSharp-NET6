@@ -12,15 +12,15 @@ namespace Composite.Model.Nodes
         public GateNode() : base()
         {
         }
-        public void AddNode(INode node)
+        public override void AddNode(INode node)
         {
             children.Add(node);
         }
-        public bool Remove(INode node)
+        public override bool Remove(INode node)
         {
             return children.Remove(node);
         }
-        public void RemoveAll()
+        public override void RemoveAll()
         {
             children.Clear();
         }
