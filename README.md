@@ -51,7 +51,7 @@
 
 ## Creational Pattern
 객체 생성 매커니즘을 다루는 디자인 패턴으로 설계 과정에서 문제를 일으키거나 복잡성을 줄이기 위해 사용한다.
-### Abstact Factory
+### [Abstact Factory](<https://github.com/foryouself83/DesignPattern/tree/master/FactoryMethod>)
 > 구체적인 클래스를 지정하지 않고 관련성을 갖는 객체들의 집합을 생성하거나 서로 독립적인 객체들의 집합을 생성할 수 있는 인터페이스를 제공한다.[<sup>[1]</sup>](<https://github.com/foryouself83/DesignPattern/blob/master/README.md#%EA%B0%81%EC%A3%BC>)
 ### Builder
 > 복합 객체의 생성 과정과 표현 방법을 분리함을써 동일한 생성 공정이 서로 다른 표현을 만들 수 있게 한다.[<sup>[1]</sup>](<https://github.com/foryouself83/DesignPattern/blob/master/README.md#%EA%B0%81%EC%A3%BC>)
