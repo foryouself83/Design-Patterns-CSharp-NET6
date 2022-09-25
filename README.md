@@ -66,7 +66,7 @@
 > 클래스의 인터페이스를 클라이언트가 기대하는 다른 인터페이스로 변환한다. 호환성이 없는 인터페이스 때문에 함께 사용할 수 없는 클래스를 개조하여 동작하도록 해준다.[<sup>[1]</sup>](<https://github.com/foryouself83/DesignPattern/blob/master/README.md#%EA%B0%81%EC%A3%BC>)
 ### Bridge
 > 추상화와 구현을 분리하여 각각을 독립적으로 변형할 수 있게 한다.[<sup>[1]</sup>](<https://github.com/foryouself83/DesignPattern/blob/master/README.md#%EA%B0%81%EC%A3%BC>)
-### Composite
+### [Composite](<https://github.com/foryouself83/DesignPattern/tree/master/Composite>)
 > 부분-전체 계층을 나타내기 위해 복합 객체를 트리 구조로 만든다. 클라이언트가 개별적 객체와 복합객체 모두를 동일하게 다루도록 한다.[<sup>[1]</sup>](<https://github.com/foryouself83/DesignPattern/blob/master/README.md#%EA%B0%81%EC%A3%BC>)
 ### [Decorator](<https://github.com/foryouself83/DesignPattern/tree/master/Decorator>)
 > 객체에 동적으로 책임을 추가할 수 있게 한다. 기능의 유연한 확장을 위해 상속 대신 사용할 수 있는 방법이다.[<sup>[1]</sup>](<https://github.com/foryouself83/DesignPattern/blob/master/README.md#%EA%B0%81%EC%A3%BC>)
