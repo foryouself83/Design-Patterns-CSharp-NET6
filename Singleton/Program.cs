@@ -1,4 +1,4 @@
-﻿using Singleton;
+﻿using Singleton.Model;
 
 class Program
 {

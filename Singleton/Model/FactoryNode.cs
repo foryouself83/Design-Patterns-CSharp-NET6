@@ -1,4 +1,4 @@
-﻿namespace Singleton
+﻿namespace Singleton.Model
 {
     internal class FactoryNode
     {
