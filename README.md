@@ -79,7 +79,7 @@
 ### [Proxy](<https://github.com/foryouself83/DesignPattern/tree/master/Proxy>)
 > 다른 객체로의 접근을 통제하기 위해서 다른 객체의 대리자 또는 다른 객체로의 정보 보유자를 제공한다.[<sup>[1]</sup>](<https://github.com/foryouself83/DesignPattern/blob/master/README.md#%EA%B0%81%EC%A3%BC>)   
    
-객체의 리소스가 무거울 경우 생성 전에 접근하거나 사전 처리(유효성 검사, 보안 등)가 필요한 경우 사용한다.
+객체의 생성을 지연시키거나 사전 처리(유효성 검사, 보안 등)가 필요한 경우 사용한다.
    
 ## Behavioral Pattern
 알고리즘과 객체 간의 책임 분배에 관련된 패턴으로 객체 간의 결합도를 낮춰 유연성을 향상 시키기위해 사용한다.
