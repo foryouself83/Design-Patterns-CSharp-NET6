@@ -1,13 +1,13 @@
 # Design Pattern   
    
 # 목차
-* [개발 정보](https://github.com/foryouself83/DesignPattern/blob/master/README.md#%EA%B0%9C%EB%B0%9C-%EC%A0%95%EB%B3%B4)
+* [개발 환경](https://github.com/foryouself83/DesignPattern/blob/master/README.md#%EA%B0%9C%EB%B0%9C-%EC%A0%95%EB%B3%B4)
 * [문제 해결](https://github.com/foryouself83/DesignPattern/blob/master/README.md#%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EB%B0%A9%EB%B2%95)
 * [GoF Design Pattern](https://github.com/foryouself83/DesignPattern/blob/master/README.md#gof-design-pattern)
 * [Compound Pattern](https://github.com/foryouself83/DesignPattern/blob/master/README.md#compound-pattern)   
 
 
-# 개발 정보
+# 개발 환경
 * .NET 6.0   
 * C# 10.0   
 * Visual Studio 2022   
