@@ -70,7 +70,7 @@
 > 부분-전체 계층을 나타내기 위해 복합 객체를 트리 구조로 만든다. 클라이언트가 개별적 객체와 복합객체 모두를 동일하게 다루도록 한다.[<sup>[1]</sup>](<https://github.com/foryouself83/DesignPattern/blob/master/README.md#%EA%B0%81%EC%A3%BC>)
 ### [Decorator](<https://github.com/foryouself83/DesignPattern/tree/master/Decorator>)
 > 객체에 동적으로 책임을 추가할 수 있게 한다. 기능의 유연한 확장을 위해 상속 대신 사용할 수 있는 방법이다.[<sup>[1]</sup>](<https://github.com/foryouself83/DesignPattern/blob/master/README.md#%EA%B0%81%EC%A3%BC>)
-### Facade
+### [Facade](<https://github.com/foryouself83/DesignPattern/tree/master/Facade>)
 > 서브 시스템에 있는 인터페이스 집합에 대해서 하나의 통합된 인터페이스를 제공한다. 서브 시스템을 좀 더 사용하기 편하게 하기 위해서 높은 수준의 인터페이스를 제공한다.[<sup>[1]</sup>](<https://github.com/foryouself83/DesignPattern/blob/master/README.md#%EA%B0%81%EC%A3%BC>)
 ### [Flyweight](<https://github.com/foryouself83/DesignPattern/tree/master/Flyweight>)
 > 작은 크기의 객체들이 여러 개 있는 경우 객체를 효과적으로 사용하는 방법으로 객체를 공유하게 한다.[<sup>[1]</sup>](<https://github.com/foryouself83/DesignPattern/blob/master/README.md#%EA%B0%81%EC%A3%BC>)
