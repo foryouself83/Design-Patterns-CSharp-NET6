@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Adapter.Interface
+namespace Adapter.Model.Interface
 {
     internal interface ICalculate
     {

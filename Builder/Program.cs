@@ -1,6 +1,4 @@
-﻿
-
-using Builder.Model;
+﻿using Builder.Model;
 
 class Program
 {

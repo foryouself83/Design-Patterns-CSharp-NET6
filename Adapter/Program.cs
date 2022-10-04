@@ -1,5 +1,5 @@
-﻿using Adapter.Interface;
-using Adapter.Model;
+﻿using Adapter.Model;
+using Adapter.Model.Interface;
 
 public class Program
 {
