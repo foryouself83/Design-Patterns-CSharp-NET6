@@ -90,7 +90,7 @@
 
 호출하는 부분과 실제 기능을 실행하는 부분의 의존성을 제거하여 호출부의 변경 없이 수신부의 변경이 가능하다.
 
-### Interpreter
+### [Interpreter](<https://github.com/foryouself83/DesignPattern/tree/master/Interpreter>)
 > 언어에 따라서 문법에 대한 표현을 정의한다. 또 언어의 문장을 해석하기 위해 정의된 표현에 기반하여 분석기를 정의한다.[<sup>[1]</sup>](<https://github.com/foryouself83/DesignPattern/blob/master/README.md#%EA%B0%81%EC%A3%BC>)
 ### Iterator
 > 내부 표현 방법을 노출하지 않고 복합 객체의 원소를 순차적으로 접근할 수 있는 방법을 제공한다.[<sup>[1]</sup>](<https://github.com/foryouself83/DesignPattern/blob/master/README.md#%EA%B0%81%EC%A3%BC>)
