@@ -92,7 +92,7 @@
 
 ### [Interpreter](<https://github.com/foryouself83/DesignPattern/tree/master/Interpreter>)
 > 언어에 따라서 문법에 대한 표현을 정의한다. 또 언어의 문장을 해석하기 위해 정의된 표현에 기반하여 분석기를 정의한다.[<sup>[1]</sup>](<https://github.com/foryouself83/DesignPattern/blob/master/README.md#%EA%B0%81%EC%A3%BC>)
-### Iterator
+### [Iterator](<https://github.com/foryouself83/DesignPattern/tree/master/Iterator>)
 > 내부 표현 방법을 노출하지 않고 복합 객체의 원소를 순차적으로 접근할 수 있는 방법을 제공한다.[<sup>[1]</sup>](<https://github.com/foryouself83/DesignPattern/blob/master/README.md#%EA%B0%81%EC%A3%BC>)
 ### [Mediator](<https://github.com/foryouself83/DesignPattern/tree/master/Mediator>)
 > 객체들 간의 상호 작용을 객체로 캡슐화한다. 객체들 간의 참조 관계를 객체에서 분리함을써 상호작용만을 독립적으로 다양하게 확대할 수 있다.[<sup>[1]</sup>](<https://github.com/foryouself83/DesignPattern/blob/master/README.md#%EA%B0%81%EC%A3%BC>)
