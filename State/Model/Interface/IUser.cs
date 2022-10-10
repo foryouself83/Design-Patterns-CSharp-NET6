@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace State.Interface
+namespace State.Model.Interface
 {
     internal interface IUser
     {

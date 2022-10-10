@@ -1,4 +1,4 @@
-﻿using Strategy.Interface;
+﻿using Strategy.Model.Interface;
 
 namespace Strategy.Model
 {

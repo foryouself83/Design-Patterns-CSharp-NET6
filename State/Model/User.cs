@@ -1,8 +1,8 @@
-﻿using State.Interface;
+﻿using State.Model.Interface;
 
 namespace State.Model
 {
-    internal abstract class User : Interface.IUser
+    internal abstract class User : IUser
     {
         private Enum.UserType _userType;
         public User ChangeUserType(Enum.UserType userType)

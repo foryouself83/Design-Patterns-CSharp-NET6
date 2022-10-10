@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Strategy.Interface
+namespace Strategy.Model.Interface
 {
     internal interface IAlgorithmStrategy
     {

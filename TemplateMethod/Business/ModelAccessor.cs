@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
 using System.Xml.Serialization;
-using TemplateMethod.Interface;
+using TemplateMethod.Model.Interface;
 
 namespace TemplateMethod.Business
 {

@@ -1,6 +1,6 @@
 ﻿using System.Xml;
 
-namespace TemplateMethod.Interface
+namespace TemplateMethod.Model.Interface
 {
     internal interface IModelAccessor
     {
