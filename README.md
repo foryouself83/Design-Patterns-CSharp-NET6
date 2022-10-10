@@ -1,4 +1,4 @@
-# Design Pattern   
+# Design Pattern(C#, .NET6)
    
 # 목차
 * [개발 환경](https://github.com/foryouself83/DesignPattern/blob/master/README.md#%EA%B0%9C%EB%B0%9C-%EC%A0%95%EB%B3%B4)
