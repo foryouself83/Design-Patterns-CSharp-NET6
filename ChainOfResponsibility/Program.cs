@@ -6,9 +6,8 @@ class Program
     {
         ValidationHandler validationHandler = new HazzardValidationHandler();
         validationHandler
-            .SetNext(new LossValidationHandler()
-            .SetNext(new UcaValidationHandler())
-            );
+            .SetNext(new LossValidationHandler())
+            .SetNext(new UcaValidationHandler());
 
 
         var hazzard = new Hazzard()
