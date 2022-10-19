@@ -1,10 +1,10 @@
 # Design Pattern(C#, .NET6)
    
 # 목차
-* [개발 환경](https://github.com/foryouself83/DesignPattern/blob/master/README.md#%EA%B0%9C%EB%B0%9C-%EC%A0%95%EB%B3%B4)
-* [문제 해결](https://github.com/foryouself83/DesignPattern/blob/master/README.md#%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EB%B0%A9%EB%B2%95)
-* [GoF Design Pattern](https://github.com/foryouself83/DesignPattern/blob/master/README.md#gof-design-pattern)
-* [Compound Pattern](https://github.com/foryouself83/DesignPattern/blob/master/README.md#compound-pattern)   
+* [개발 환경](<https://github.com/foryouself83/DesignPattern/blob/master/README.md#%EA%B0%9C%EB%B0%9C-%EC%A0%95%EB%B3%B4>)
+* [문제 해결](<https://github.com/foryouself83/DesignPattern/blob/master/README.md#%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-%EB%B0%A9%EB%B2%95>)
+* [GoF Design Pattern](<https://github.com/foryouself83/DesignPattern/blob/master/README.md#gof-design-pattern>)
+* [Compound Pattern](<https://github.com/foryouself83/DesignPattern/blob/master/README.md#compound-pattern>)   
 
 
 # 개발 환경
@@ -14,11 +14,11 @@
 
 # 문제 해결
 - **적당한 객체 찾기**   
-프로세스나 알고리즘을 객체로 만들고 [Strategy](https://github.com/foryouself83/DesignPattern/blob/master/README.md#strategy), [State](https://github.com/foryouself83/DesignPattern/blob/master/README.md#state), [Visitor](https://github.com/foryouself83/DesignPattern/blob/master/README.md#visitor) 등을 이용해 설계를 좀 더 `유연`하고 `재사용`한 것으로 만들려는 노력이 필요하다.   
+프로세스나 알고리즘을 객체로 만들고 [Strategy](<https://github.com/foryouself83/DesignPattern/blob/master/README.md#strategy>), [State](<https://github.com/foryouself83/DesignPattern/blob/master/README.md#state>), [Visitor](<https://github.com/foryouself83/DesignPattern/blob/master/README.md#visitor>) 등을 이용해 설계를 좀 더 `유연`하고 `재사용`한 것으로 만들려는 노력이 필요하다.   
 
 
 - **객체 크기와 책임 결정**   
-[Facade](https://github.com/foryouself83/DesignPattern/blob/master/README.md#facade) 이용하여 서브 시스템을 어떻게 객체로 만들 수 있고 [Flyweight](https://github.com/foryouself83/DesignPattern/blob/master/README.md#flyweight)을 이용하여 많은 객체를 효율적으로 다룰 수 있다. [Abstact Factory](https://github.com/foryouself83/DesignPattern/blob/master/README.md#abstact-factory), [Builder](https://github.com/foryouself83/DesignPattern/blob/master/README.md#builder)를 이용하여 다른 객체를 `생성하는 책임`만 갖는 객체를 만들거나 [Visitor](https://github.com/foryouself83/DesignPattern/blob/master/README.md#visitor), [Command](https://github.com/foryouself83/DesignPattern/blob/master/README.md#Command) 등을 이용하여 다른 객체에서 `요청에 대한 책임`을 갖도록 객체를 만들 수 있다.   
+[Facade](<https://github.com/foryouself83/DesignPattern/blob/master/README.md#facade>) 이용하여 서브 시스템을 어떻게 객체로 만들 수 있고 [Flyweight](<https://github.com/foryouself83/DesignPattern/blob/master/README.md#flyweight>)을 이용하여 많은 객체를 효율적으로 다룰 수 있다. [Abstact Factory](<https://github.com/foryouself83/DesignPattern/blob/master/README.md#abstact-factory>), [Builder](<https://github.com/foryouself83/DesignPattern/blob/master/README.md#builder>)를 이용하여 다른 객체를 `생성하는 책임`만 갖는 객체를 만들거나 [Visitor](<https://github.com/foryouself83/DesignPattern/blob/master/README.md#visitor>), [Command](<https://github.com/foryouself83/DesignPattern/blob/master/README.md#Command>) 등을 이용하여 다른 객체에서 `요청에 대한 책임`을 갖도록 객체를 만들 수 있다.   
 
 
 - **객체 인터페이스 명세**   
