@@ -62,10 +62,9 @@
    
 ## Structural Pattern
 클래스와 객체간의 관계 또는 책임을 파악해서 설계를 용이하게 하기 위해 사용한다.
-### [Adapter](<https://github.com/foryouself83/Design-Patterns-CSharp-NET6/tree/master/Adapter>)
-> 클래스의 인터페이스를 클라이언트가 기대하는 다른 인터페이스로 변환한다. 호환성이 없는 인터페이스 때문에 함께 사용할 수 없는 클래스를 개조하여 동작하도록 해준다.[<sup>[1]</sup>]   
+### [Adapter](<https://github.com/foryouself83/Design-Patterns-CSharp-NET6/tree/master/Adapter>)   
 기존 클래스를 변경하지 않아도 될 수 있게 만듬으로서 오류 발생의 빈도를 줄일 수 있다.
-(<https://github.com/foryouself83/Design-Patterns-CSharp-NET6/blob/master/README.md#%EA%B0%81%EC%A3%BC>)
+> 클래스의 인터페이스를 클라이언트가 기대하는 다른 인터페이스로 변환한다. 호환성이 없는 인터페이스 때문에 함께 사용할 수 없는 클래스를 개조하여 동작하도록 해준다.[<sup>[1]</sup>](<https://github.com/foryouself83/Design-Patterns-CSharp-NET6/blob/master/README.md#%EA%B0%81%EC%A3%BC>)
 ### [Bridge](<https://github.com/foryouself83/Design-Patterns-CSharp-NET6/tree/master/Bridge>)
 > 추상화와 구현을 분리하여 각각을 독립적으로 변형할 수 있게 한다.[<sup>[1]</sup>](<https://github.com/foryouself83/DesignPattern/blob/master/README.md#%EA%B0%81%EC%A3%BC>)
 ### [Composite](<https://github.com/foryouself83/Design-Patterns-CSharp-NET6/tree/master/Composite>)
