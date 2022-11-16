@@ -1,6 +1,6 @@
-﻿using FactoryMethod.Interface;
+﻿using FactoryMethod.Model.Interface;
 
-namespace FactoryMethod
+namespace FactoryMethod.Model.Node
 {
     public class FactoryNode
     {

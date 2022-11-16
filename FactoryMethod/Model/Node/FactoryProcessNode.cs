@@ -1,6 +1,4 @@
-﻿using FactoryMethod.Node;
-
-namespace FactoryMethod
+﻿namespace FactoryMethod.Model.Node
 {
     public class FactoryProcessNode : AbstractFactoryNode<ProcessNode>
     {

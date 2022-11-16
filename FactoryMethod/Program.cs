@@ -1,4 +1,4 @@
-﻿using FactoryMethod;
+﻿using FactoryMethod.Model.Node;
 
 class Program
 {

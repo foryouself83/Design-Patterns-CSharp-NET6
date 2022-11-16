@@ -1,5 +1,4 @@
-﻿
-namespace FactoryMethod.Node
+﻿namespace FactoryMethod.Model.Node
 {
     public class ResponsibilityNode
     {
