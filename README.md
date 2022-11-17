@@ -52,8 +52,10 @@
 ## Creational Pattern
 객체 생성 매커니즘을 다루는 디자인 패턴으로 설계 과정에서 문제를 일으키거나 복잡성을 줄이기 위해 사용한다.
 ### [Abstact Factory](<https://github.com/foryouself83/Design-Patterns-CSharp-NET6/tree/master/AbstactFactory>)
+상속받은 추상화 클래스를 이용하여 집합이 있는 객체들을 생성할 때 사용한다.
 > 구체적인 클래스를 지정하지 않고 관련성을 갖는 객체들의 집합을 생성하거나 서로 독립적인 객체들의 집합을 생성할 수 있는 인터페이스를 제공한다.[<sup>[1]</sup>](<https://github.com/foryouself83/Design-Patterns-CSharp-NET6/blob/master/README.md#%EA%B0%81%EC%A3%BC>)
 ### [Builder](<https://github.com/foryouself83/Design-Patterns-CSharp-NET6/tree/master/Builder>)
+객체 생성시 필요에 따라 기능이 다른 객체를 만들 경우 사용한다.
 > 복합 객체의 생성 과정과 표현 방법을 분리함을써 동일한 생성 공정이 서로 다른 표현을 만들 수 있게 한다.[<sup>[1]</sup>](<https://github.com/foryouself83/Design-Patterns-CSharp-NET6/blob/master/README.md#%EA%B0%81%EC%A3%BC>)
 ### [Factory Method](<https://github.com/foryouself83/Design-Patterns-CSharp-NET6/tree/master/FactoryMethod>)
 > 객체를 생성하는 인터페이스를 정의 하지만, 인스턴스를 만들 클래스의 결정은 서브 클래스가 한다. 클래스의 인스턴스를 만드는 시점을 서브클래스로 미룬다.[<sup>[1]</sup>](<https://github.com/foryouself83/Design-Patterns-CSharp-NET6/blob/master/README.md#%EA%B0%81%EC%A3%BC>)
